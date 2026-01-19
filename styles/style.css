@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+  display: flex;
+  width: 1600px;
+  height: 92px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 200px;
+  background-color: #1A0B2E;
+}
+.brand{
+  color: #FFFFFF;
+  width: 219px;
+  height: 32px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.brand .color-linear{
+  color: #f715c6;
+  width: 219px;
+  height: 32px;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  color: #FFFFFF;
+  gap: 32px;
+}
+.btn-primary{
+  color: #FFFFFF;
+  width: 135px;
+  height: 44px;
+  gap: 4px;
+  padding: 12px 16px;
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  border-radius: 20px;
+  align-items: center;
+  cursor: pointer;
+}
+.banner{
+  margin: auto;
+  width: 1600px;
+  height: 760px;
+  background-image: url(hero-circle.png);
+  background-size: cover;
+}
+.hero-bg{
+  width: 1600px;
+  height: 760px;
+  margin: 0 auto;
+  position: relative;
+}
+.banner .circle{
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-5%, -75%);
+}
+.mic{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+.hero-content{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  color: #FFFFFF;
+  width: 100%;
+}
+.hero-content h1{
+  font-size: 4rem;
+  font-weight: 600;
+  align-items: center;
+}
+.btn-second{
+  width: 201px;
+  height: 44px;
+  font-weight: 600;
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.transparent{
+  gap: 8px;
+  background: transparent;
+  border: 2px solid #00FF88;
+  font-weight: 600;
+  width: 147px;
+  height: 44px;
+  padding: 12px 20px;
+  border-radius: 50px;
+  color: #00FF88;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+.about{
+  margin: auto;
+  width: 1600px;
+  height: 646px;
+  padding: 50px 200px 120px;
+  background-color: #1A0B2E;
+}
+.about-title{
+  color: #FFFFFF;
+  justify-items: center;
+  text-align: center;
+}
+.about-title h1{
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.footer-img img{
+  margin: auto;
+}
