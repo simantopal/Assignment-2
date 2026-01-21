@@ -48,6 +48,10 @@
   align-items: center;
   cursor: pointer;
 }
+
+
+
+
 .banner{
   margin: auto;
   width: 1600px;
@@ -102,11 +106,15 @@
   align-items: center;
   background: linear-gradient(90deg, #F7E93F, #FB09B4, #9100F8);
   border-radius: 50px;
+  gap: 7px;
   cursor: pointer;
 }
 .transparent{
   background: transparent;
   border: 2px solid #00FF88;
+  width: 147px;
+  height: 44px;
+  gap: 8PX;
   font-weight: 400;
   padding: 12px 20px;
   border-radius: 50px;
@@ -157,6 +165,10 @@
 .about p{
   color: #FFFFFF;
 }
+
+
+
+
 
 .choose-section{
   margin: auto;
@@ -243,16 +255,13 @@ h2{
   text-align: center;
 }
 
-.card{
-  display: grid;
-  width: 380px;
-  height: 440px;
-}
+
+
+
 .footer-container{
   position: relative;
   width: 100%;
   overflow: hidden;
- 
   justify-content: center;
   align-items: center;
 }
@@ -278,18 +287,23 @@ h2{
   text-align: center;
   margin-top: 0;
 }
+.footer-content p{
+  margin-top: 20px;
+}
 .color-linear{
   color: #f715c6;
   width: 219px;
   height: 32px;
-} 
+}
 .social-links{
-  margin-top: 20px;
-  position: absolute;
-  top: 60%;
-  left: 60%;
-  transform: translate(-60%, -60%);
-  text-align: center;
-  color: white;
-  width: 100%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 576px){
+  .navbar{
+    flex-direction: column;
+  }
 }
